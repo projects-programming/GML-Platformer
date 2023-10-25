@@ -8,7 +8,9 @@ key_jump = keyboard_check_pressed(vk_space);
 // Calculate movement
 var _move = key_right - key_left;
 
+hsp = _move * walksp;
 
+x = x + hsp;
 
 
 
