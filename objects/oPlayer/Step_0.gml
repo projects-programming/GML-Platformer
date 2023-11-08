@@ -59,5 +59,5 @@ else
 		sprite_index = sPlayerWalk
 	}
 }
-
-if (hsp != 0) image_xscale = sign(hsp);
+if (key_left) image_xscale = -0.256;
+if (key_right) image_xscale = 0.256;
