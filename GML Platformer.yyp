@@ -3,19 +3,23 @@
   "resourceVersion": "1.6",
   "name": "GML Platformer",
   "resources": [
+    {"id":{"name":"sBackgroundNight","path":"sprites/sBackgroundNight/sBackgroundNight.yy",},"order":15,},
+    {"id":{"name":"sBackgroundDay","path":"sprites/sBackgroundDay/sBackgroundDay.yy",},"order":14,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sPlayerWalk","path":"sprites/sPlayerWalk/sPlayerWalk.yy",},"order":9,},
     {"id":{"name":"sPlayerJump","path":"sprites/sPlayerJump/sPlayerJump.yy",},"order":11,},
-    {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},"order":12,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"sCactus","path":"sprites/sCactus/sCactus.yy",},"order":13,},
     {"id":{"name":"oCactus","path":"objects/oCactus/oCactus.yy",},"order":2,},
     {"id":{"name":"sWalls","path":"sprites/sWalls/sWalls.yy",},"order":6,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"sInvisibleWall","path":"sprites/sInvisibleWall/sInvisibleWall.yy",},"order":1,},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},"order":10,},
     {"id":{"name":"sGrain","path":"sprites/sGrain/sGrain.yy",},"order":8,},
     {"id":{"name":"sClouds","path":"sprites/sClouds/sClouds.yy",},"order":7,},
+    {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},"order":3,},
+    {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},"order":16,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -36,6 +40,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
