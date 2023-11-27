@@ -1,4 +1,12 @@
-# GML-Platformer-Starter-Kit
+# The Western Cowboy
+Get to the end of the desert without falling off into the abyss. 
+
+# Features
+- Animated walk cycle when walking on a platform
+- Animated jump cycle for going up vs. falling down
+- Animated IDLE state
+- Door to move to next room
+- Double jump
 
 A GML Starter kit for the **Platformer Tutorial (GML) - Parts 1 & 2**  
 
