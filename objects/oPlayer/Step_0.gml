@@ -20,6 +20,8 @@ if (place_meeting(x,y+1,oWall)) && (key_jump)
 // Horizontal collision
 if (place_meeting(x+hsp,y,oWall))
 {
+	current_jumps = 0;
+	
 	while (!place_meeting(x+sign(hsp),y,oWall))
 	{
 		x = x + sign(hsp)
@@ -31,6 +33,8 @@ x = x + hsp;
 // Vertical collision
 if (place_meeting(x,y+vsp,oWall))
 {
+	current_jumps = 0;
+	
 	while (!place_meeting(x,y+sign(vsp),oWall))
 	{
 		y = y + sign(vsp)
